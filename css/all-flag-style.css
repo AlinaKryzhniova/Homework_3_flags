@@ -1,0 +1,241 @@
+
+.flag_border {
+    border: 1px solid #000;
+   
+    }
+.swiss_style {
+    width: 35px;
+    height: 103px;
+    background: white;
+    top: 20px;
+    left:100px;
+    }
+.swiss {
+    height: 36px;
+    width: 103px;
+    border-top: 57px solid #c00;
+    border-right: 82px solid #c00;
+    border-bottom: 57px solid #c00;
+    border-left: 65px solid #c00;
+    }
+.russia {
+    height: 50px;
+    width: 250px;
+    background:#d52b1e;
+    border-top: 50px solid #FFFFFF;
+    border-bottom: 50px solid #0039a6;
+   
+    }
+.czech {
+    height:150px;
+    width:250px;
+    background-color: #ffffff;
+    position: absolute;
+    }
+.czech:after {
+    content:"";
+   position: absolute;
+    margin-top:0;
+   	border-top: 75px solid transparent;
+  	border-left: 123px solid #41479b;
+  	border-bottom: 75px solid transparent;
+    }
+.czech:before{
+    content:"";
+    display:block;
+    position: absolute;
+    background-color: #e54545;
+    margin-top:75px;
+    height:75px;
+    width: 250px;
+    }
+.chad {
+    height:150px;
+    width:83px;
+    background-color: #FCD116;
+    border-left: 83px solid #002664;
+    border-right: 83px solid #CE1126;
+    }
+.aland_background_lines {
+    height:150px;
+    width:250px;
+    background-color: 
+    position: relative;
+    background: #4070c7;
+    }
+.aland:after {
+    content:"";
+    height: 150px;
+    position: absolute;
+    width: 18px;
+    background-color: #ff4b55;
+    left: 69px;
+    }
+.aland:before {
+    content:"";
+    position: absolute;
+    width: 38px; height: 150px;
+    background-color: #ffe15a;
+    left:60px;
+    }
+.aland_background_lines:after {
+    content:"";
+    background-color: #ff4b55;
+    height: 18px;
+    width: 250px;
+    position: absolute;
+    top: 73px;
+    }
+
+.aland_background_lines:before {
+    content:"";
+    background-color: #ffe15a;
+    height: 38px;
+    width: 250px;
+    position: absolute;
+    top: 64px;
+    }
+.niger {
+    height: 50px;
+    width: 250px;
+    background:#FFFFFF;
+    border-top: 50px solid #ff9b55;
+    border-bottom: 50px solid #73af00;
+    position: relative;
+    }
+.niger_circle {
+    position: absolute;
+    width: 40px; 
+    height: 40px; 
+    background: #ff9b55;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+     border-radius: 20px;
+    left: 104px;
+    top: 5px;
+    }
+
+.uk {
+    height:150px;
+    width:250px;
+    position: relative;
+    background: #41479b;
+    overflow: hidden;  
+    }
+.uk_first_lines:before {
+    content: "";
+    height: 23px;
+    width: 291px;
+    position: absolute;
+    background-color: white;
+    transform: rotate(31deg);
+    top: 63px;
+    right: -21px;
+    z-index: 1;
+    }
+.uk_first_lines:after {
+    content:"";
+    position: absolute;
+    height: 10px;
+    width: 291px;
+    background-color: #ff4b55;
+  transform: rotate(31deg);
+    top: 69px;
+    right: -21px;
+    z-index: 2;
+    }
+.uk_lines:after {
+    content:"";
+    height: 150px;
+    position: absolute;
+    width: 30px;
+    background-color: #ff4b55;
+    left: 110px;
+    z-index: 7;
+    }
+.uk_lines:before {
+    content:"";
+    position: absolute;
+    width: 54px; 
+    height: 150px;
+    background-color: white;
+    left: 97px;
+    z-index: 5;   
+    }
+.uk:after {
+    content:"";
+    background-color: #ff4b55;
+    height: 31px;
+    width: 250px;
+    position: absolute;
+    top: 60px;
+    z-index: 8;
+     }
+
+.uk:before {
+    content:"";
+    background-color: white;
+    height: 52px;
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    z-index: 6;
+    }
+.uk {
+    position: relative;
+    }
+.uk_second_lines:before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 23px;
+    width: 291px;
+    transform: rotate(-31deg);
+    z-index: 1;
+    top: 63px;
+    right: -21px;
+   }
+.uk_second_lines:after {
+    content:"";
+    position: absolute;
+    background-color: #ff4b55;
+     height: 10px;
+    width: 291px;
+    transform: rotate(-31deg);
+    top: 69px;
+    right: -21px;
+    z-index: 2;
+    }
+.grenlande {
+    height: 75px;
+    width: 250px;
+    background:#e54545;
+    border-top: 75px solid #FFFFFF;
+    }
+.radius {
+    width: 5em;
+    height: 2.5em;  
+    border: 1px solid #e54545;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;  
+    background: #e54545;
+    top: -42px;
+    left: 20px;
+    }
+  
+.grenlande:after {
+    content:"";
+    position: absolute; 
+    width: 5em;
+    height: 2.5em;
+    border: 2px solid #ffff;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    background: #ffff;
+    left: 19px;
+    }
+
+
+
+
+
+
+
